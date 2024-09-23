@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background: rgb(1,43,57);
+}
+.wrapper{
+    width: 420px;
+    height: 120px;
+    margin-top: 6%;
+    background:linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 4px;
+}
+.clock{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 395px;
+    height: 95px;
+    background: rgb(1,43,57);;
+}
+#time{
+    font-size: 56px;
+    color: white;
+}
